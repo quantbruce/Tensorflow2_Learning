@@ -23,9 +23,7 @@ data = df.values
 x_data = [lines[0:4] for lines in data]
 y_data = [lines[4] for lines in data]
 
-
 x_data = np.array(x_data, dtype=float)
-
 
 for i in range(len(x_data)):
     if y_data[i] == 'setosa':
