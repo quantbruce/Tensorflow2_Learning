@@ -1,6 +1,8 @@
 """
 [Conclusion]: 这八股代码很经典很重要，要求熟练背诵！
-[Tips]: Tensorflow中的学习率调整策略：https://www.cnblogs.com/sdu20112013/p/11883448.html
+[Tips]: Tensorflow中的学习率调整策略：
+https://blog.csdn.net/dcrmg/article/details/80017200
+https://www.cnblogs.com/sdu20112013/p/11883448.html
 """
 
 from sklearn.datasets import load_iris
