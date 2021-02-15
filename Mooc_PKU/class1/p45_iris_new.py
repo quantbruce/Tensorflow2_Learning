@@ -87,7 +87,6 @@ for epoch in range(epoch):
     total_correct, total_number = 0, 0
     for x_test, y_test in test_db:
         y = tf.matmul(x_test, w1) + b1
-        # y = tf.squeeze(y)  # 添加了这一行
         y = tf.nn.softmax(y)
         y_pred = tf.argmax(y, axis=1)
         y_pred = tf.cast(y_pred, dtype=y_test.dtype)
