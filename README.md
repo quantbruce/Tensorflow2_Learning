@@ -1,2 +1,2 @@
-# Deep-Learning-CNN
-CNN-Learning-note
+# Deep-Learning
+Tensorflow2.0-Learning-note
